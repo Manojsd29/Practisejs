@@ -90,6 +90,7 @@ public class CreateOranizationWithContactUsingPomTest {
 		WebElement wait = driver.findElement(By.xpath("//a[text()='"+orgname+"']"));
 		wlib.waitForElementVisiblity(driver, 25, wait);
 		wait.click();
+		driver.quit();
 		
 		
 	

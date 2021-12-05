@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crmcontactTest.CreateOranizationWithContactUsingPomTest">
+      <class name="com.crmcontactTest.CreateContactUsingPomTest">
         <methods>
-          <include name="CreateOranizationWithContactUsingPom"/>
+          <include name="createContactPom"/>
         </methods>
-      </class> <!-- com.crmcontactTest.CreateOranizationWithContactUsingPomTest -->
+      </class> <!-- com.crmcontactTest.CreateContactUsingPomTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

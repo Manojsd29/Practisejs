@@ -3,6 +3,7 @@ package com.crmcontactTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 import com.vtiger.comcast.pomrepositylib.ContactInformation;
 import com.vtiger.comcast.pomrepositylib.Contacts;
@@ -16,6 +17,7 @@ import com.vtiger.generic.WebDriverUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CreateContactUsingPomTest {
+@Test
 
 	public void createContactPom() throws Throwable {
 		//launching the driver

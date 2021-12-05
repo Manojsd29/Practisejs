@@ -32,11 +32,11 @@ public String getvalues(String key) throws Throwable {
  * @throws Throwable
  */
 
-public String getExcelValue(String sheetName,int row,int cell) throws Throwable {
-	FileInputStream fis = new FileInputStream("C:\\Users\\Manoj sd\\Desktop\\Recordings\\Selenium\\selenium\\commondata.xlsx");
-	Workbook wb =WorkbookFactory.create(fis);
-	String data = wb.getSheet(sheetName).getRow(row).getCell(cell).getStringCellValue();
-	return data;
-	
-}
+//public String getExcelValue(String sheetName,int row,int cell) throws Throwable {
+//	FileInputStream fis = new FileInputStream("C:\\Users\\Manoj sd\\Desktop\\Recordings\\Selenium\\selenium\\commondata.xlsx");
+//	Workbook wb =WorkbookFactory.create(fis);
+//	String data = wb.getSheet(sheetName).getRow(row).getCell(cell).getStringCellValue();
+//	return data;
+//	
+//}
 }
